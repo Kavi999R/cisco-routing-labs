@@ -57,9 +57,11 @@ cisco-routing-labs/
 │   └── network-topology.png
 │
 ├── labs/
-│   ├── static-routing/
-│   ├── ospf/
-│   └── branch-network/
+| 
+|    ├── inter-vlan-routing/
+|    ├── acl/
+|    ├── ospf/
+|    └── branch-network/
 │
 └── screenshots/
     ├── router-config.png
