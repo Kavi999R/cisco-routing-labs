@@ -83,6 +83,41 @@ traceroute
 
 These commands were used to verify interface status, routing information, and connectivity between the main office and branch networks.
 
+## IP Addressing Scheme
+
+### Router Interfaces
+
+| Router | Interface | IP Address      | Network    |
+| ------ | --------- | --------------- | ---------- |
+| R1     | G0/0      | 203.0.113.2/30  | External   |
+| R1     | G0/1.10   | 192.168.10.1/24 | Sales      |
+| R1     | G0/1.40   | 192.168.40.1/24 | Servers    |
+| R1     | G0/1.50   | 192.168.50.1/24 | Wi-Fi      |
+| R1     | G0/2      | 10.0.12.1/30    | R1–R2      |
+| R2     | G0/0      | 10.0.12.2/30    | R1–R2      |
+| R2     | G0/1      | 192.168.20.1/24 | Management |
+| R2     | G0/2      | 10.0.23.1/30    | R2–R3      |
+| R3     | G0/0      | 192.168.30.1/24 | HR         |
+| R3     | G0/1      | 10.0.23.2/30    | R2–R3      |
+
+### VLAN Information
+
+| VLAN ID | VLAN Name  | Network         | Default Gateway |
+| ------- | ---------- | --------------- | --------------- |
+| 10      | Sales      | 192.168.10.0/24 | 192.168.10.1    |
+| 20      | Management | 192.168.20.0/24 | 192.168.20.1    |
+| 30      | HR         | 192.168.30.0/24 | 192.168.30.1    |
+| 40      | Servers    | 192.168.40.0/24 | 192.168.40.1    |
+| 50      | Wi-Fi      | 192.168.50.0/24 | 192.168.50.1    |
+
+### Server Information
+
+| Device          | IP Address    |
+| --------------- | ------------- |
+| DHCP/DNS Server | 192.168.40.10 |
+
+
+
 ## What I Learned
 
 Through these labs, I developed practical experience with Cisco IOS, router configuration, IP addressing, routing concepts, and connecting separate networks in a simulated business environment.
