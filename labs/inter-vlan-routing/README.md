@@ -18,8 +18,7 @@ This lab demonstrates Inter-VLAN Routing using Cisco Packet Tracer. The objectiv
 ```cisco
 show vlan brief
 show interfaces trunk
-show ip interface brief
-show running-config
+show etherchannel summary
 ping
 ```
 
