@@ -78,7 +78,7 @@ show ip route
 show ip interface brief
 show running-config
 ping
-traceroute
+
 ```
 
 These commands were used to verify interface status, routing information, and connectivity between the main office and branch networks.
