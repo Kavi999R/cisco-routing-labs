@@ -1,6 +1,6 @@
 # Ticket 001: Duplicate IP Address on Management VLAN
 
-**Status:** Resolved — pending final DHCP verification
+**Status:** Resolved - pending final DHCP verification
 **Lab:** Inter-VLAN Routing
 **Device:** PC2
 
