@@ -1,4 +1,4 @@
-# Ticket 001: Duplicate IP Address on Management VLAN
+## Ticket 001: Duplicate IP Address on Management VLAN
 
 **Status:** Resolved - pending final DHCP verification
 **Lab:** Inter-VLAN Routing
