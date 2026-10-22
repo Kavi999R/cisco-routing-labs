@@ -1,4 +1,4 @@
-# Ticket 002: Default Route Not Advertised Through OSPF
+## Ticket 002: Default Route Not Advertised Through OSPF
 
 **Status:** Resolved
 **Lab:** Branch Network
