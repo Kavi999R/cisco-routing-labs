@@ -63,10 +63,10 @@ cisco-routing-labs/
 |    ├── ospf/
 |    └── branch-network/
 │
-└── screenshots/
-    ├── router-config.png
-    ├── routing-table.png
-    └── connectivity-test.png
+└── troubleshooting/
+    ├── README.md
+    ├── ticket-001-duplicate-ip-address.md
+    └── ticket-002-ospf-default-route.md
 ```
 
 ## Verification
