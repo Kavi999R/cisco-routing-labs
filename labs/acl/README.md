@@ -23,8 +23,7 @@ Verification commands:
 
 ```cisco
 show access-lists
-show running-config
-show ip interface brief
+show ip interface ...
 ping
 ```
 
